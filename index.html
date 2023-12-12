@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Land</title>
+    <!--Links to the text style and logos-->>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!--Top Navigation-->>
+    <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="/images/logo.png" alt="logo" width="200" height="200"/>
+            </a>
+          </div>
+  
+          <div class="main-menu">
+            <ul>
+              <li>
+                <a href="about_us.html">Про нас</a>
+              </li>
+              <li>
+                <a href="blog.html">Блог</a>
+              </li>
+              <li>
+                <a class="btn" href="index.html"> <i class="fas fa-user"></i> Увійти </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      
+    <main>
+        <!--Login Section-->
+        <section class="login">
+            <p>Для доступу необхідно зареєструватися та пройти верифікацію</p>
+            <h2>Увійти</h2>
+            <form>
+                <input type="text" placeholder="Логін">
+                <input type="password" placeholder="Пароль">
+                <button type="button" class="btn" onclick="window.location.href='home.html'">Увійти</button>
+              </form>
+              
+            <p>Не маєш акаунту? <a href="register.html">Зареєструватись!</a></p>
+            <p><a href="gov.html">Увійти, як державний орган</a></pp>
+        <!--Some statistic-->>
+        </section>
+        <section class="stats">
+            <h2>Відкривай ринок земельних ділянок України разом з нами!</h2>
+            <div class="stats">
+                <img src="/images/font_1.png" alt="Stat 1">
+                <p class="bold-number">1,500,000+ </p>
+                <p>Земельних ділянок зареєстровано</p>
+            </div>
+            <div class="stats">
+                <img src="/images/font_2.png" alt="Stat 2">
+                <p class="bold-number">1,760,000+ </p>
+                <p>Адрес знайдено</p>
+            </div>
+            <div class="stats">
+                <img src="/images/font_3.png" alt="Stat 3">
+                <p class="bold-number">340,000+ </p>
+                <p>Дозволів на будівництво</p>
+            </div>
+        </section>
+    </main>
+
+ <!-- Footer(Bottom Navigation) -->
+ <footer class="footer bg-black">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="card">
+            <h4>Підпишись на новини!</h4>
+            <p class="text-sm">
+              Підпишись, щоб дізнаватись про новинки
+              земельного ринку України першим!
+            </p>
+            <form>
+              <input type="email" id="email" placeholder="Введи електронну адресу" />
+              <button type="submit" class="btn btn-primary btn-block">
+                Підписатися!
+              </button>
+            </form>
+          </div>
+          <a href="https://www.linkedin.com/in/arsen-medvid-01b4671aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FMinistry_agroUA" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div>
+          <h4>Команда</h4>
+          <ul>
+            <li><a href="about_us.html">Про нас</a></li>
+            <li><a href="#">Приєднатися до нас</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Інше</h4>
+          <ul>
+            <li><a href="#">Правила використання</a></li>
+            <li><a href="#">Захист даних</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Контакти</h4>
+          <ul>
+            <li>
+              <a href="#">support@e-land.ua</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
